@@ -34,6 +34,7 @@ new Vue({
       this.result = rand
       this.state = false
     },
+    
     resetApp() {
       this.state = true
       this.names = []
