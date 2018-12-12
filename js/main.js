@@ -10,7 +10,6 @@ new Vue({
   methods: {
     addNameToList() {
       if(this.validate(this.inputName)) {
-
         this.names.push(this.inputName)
         this.inputName = ''
         this.showError = false
