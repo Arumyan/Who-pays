@@ -13,7 +13,6 @@ new Vue({
 
         this.names.push(this.inputName)
         this.inputName = ''
-        
         this.showError = false
       }
       else {
