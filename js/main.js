@@ -29,6 +29,14 @@ new Vue({
         return false
       }
     },
+    validateInput(value) {
+      if (value !== '') {
+        return true
+      }
+      else {
+        return false
+      }
+    },
     showResults() {
       let rand = this.names[Math.floor(Math.random() * this.names.length)]
       this.result = rand
